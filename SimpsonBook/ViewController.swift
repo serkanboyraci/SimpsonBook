@@ -51,7 +51,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         let cell = UITableViewCell()
         cell.textLabel?.text = mySimpsons[indexPath.row].name //take a row for a name
-        
         return cell
         
     }

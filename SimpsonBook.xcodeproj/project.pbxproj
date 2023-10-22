@@ -13,6 +13,8 @@
 		603F7ED728DB4F34004EFE0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603F7ED528DB4F34004EFE0F /* Main.storyboard */; };
 		603F7ED928DB4F35004EFE0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603F7ED828DB4F35004EFE0F /* Assets.xcassets */; };
 		603F7EDC28DB4F35004EFE0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603F7EDA28DB4F35004EFE0F /* LaunchScreen.storyboard */; };
+		603F7EE428DB519D004EFE0F /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603F7EE328DB519D004EFE0F /* DetailsVC.swift */; };
+		603F7EE628DBA5AD004EFE0F /* family.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603F7EE528DBA5AD004EFE0F /* family.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		603F7ED828DB4F35004EFE0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		603F7EDB28DB4F35004EFE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		603F7EDD28DB4F35004EFE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		603F7EE328DB519D004EFE0F /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		603F7EE528DBA5AD004EFE0F /* family.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = family.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				603F7ECF28DB4F34004EFE0F /* AppDelegate.swift */,
 				603F7ED128DB4F34004EFE0F /* SceneDelegate.swift */,
 				603F7ED328DB4F34004EFE0F /* ViewController.swift */,
+				603F7EE328DB519D004EFE0F /* DetailsVC.swift */,
 				603F7ED528DB4F34004EFE0F /* Main.storyboard */,
 				603F7ED828DB4F35004EFE0F /* Assets.xcassets */,
 				603F7EDA28DB4F35004EFE0F /* LaunchScreen.storyboard */,
 				603F7EDD28DB4F35004EFE0F /* Info.plist */,
+				603F7EE528DBA5AD004EFE0F /* family.swift */,
 			);
 			path = SimpsonBook;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				603F7EE628DBA5AD004EFE0F /* family.swift in Sources */,
 				603F7ED428DB4F34004EFE0F /* ViewController.swift in Sources */,
+				603F7EE428DB519D004EFE0F /* DetailsVC.swift in Sources */,
 				603F7ED028DB4F34004EFE0F /* AppDelegate.swift in Sources */,
 				603F7ED228DB4F34004EFE0F /* SceneDelegate.swift in Sources */,
 			);

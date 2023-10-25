@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import UIKit
+import UIKit // UIImage gelmesi icin eklenmesi gerekli
 
 
 // added family class

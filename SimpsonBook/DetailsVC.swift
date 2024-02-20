@@ -12,7 +12,7 @@ class DetailsVC: UIViewController {
     @IBOutlet var nameLabel: UILabel!
     @IBOutlet var jobLabel: UILabel!
     
-    var selectedSimpson : family? //with class defining
+    var selectedSimpson : family? //with class defining here is very important
     /*
     var selectedName = ""
     var selectedJob = ""

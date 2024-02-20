@@ -11,7 +11,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
  
     var mySimpsons = [family]() //we cant define array here.
-    var chosenSimpson : family? //to define with class
+    var chosenSimpson : family? //to define with class // here is important
     
     
     @IBOutlet var tableView: UITableView!
@@ -54,7 +54,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         content.text = mySimpsons[indexPath.row].name
         cell.contentConfiguration = content  //take a row for a name
         return cell
-        
+         
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -63,11 +63,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     override func prepare(for segue:UIStoryboardSegue, sender:Any?) {
-        if segue.identifier == "toDetailsVC" {
+        if segue.identifier == "toDetailsVC" { // to be ensure that this segue is the same with our wanted segue
             let destinationVC = segue.destination as! DetailsVC
             destinationVC.selectedSimpson = chosenSimpson
         }
     }
+    
+    
 
     
 

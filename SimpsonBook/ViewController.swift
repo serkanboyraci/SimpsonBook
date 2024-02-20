@@ -50,7 +50,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = UITableViewCell()
-        cell.textLabel?.text = mySimpsons[indexPath.row].name //take a row for a name
+        var content = cell.defaultContentConfiguration()
+        content.text = mySimpsons[indexPath.row].name
+        cell.contentConfiguration = content  //take a row for a name
         return cell
         
     }
